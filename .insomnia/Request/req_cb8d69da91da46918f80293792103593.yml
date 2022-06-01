@@ -1,9 +1,9 @@
 _id: req_cb8d69da91da46918f80293792103593
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654108774339
+modified: 1654114351150
 created: 1654098425666
-url: "{{ _.base }}/auth/register"
+url: "{{ _.local }}/auth/register"
 name: Create User
 description: ""
 method: POST

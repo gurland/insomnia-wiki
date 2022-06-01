@@ -1,9 +1,9 @@
 _id: req_aec0a1d6a4164190b421a1285a49d387
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654108390348
+modified: 1654114360169
 created: 1654104115480
-url: "{{ _.base }}/articles?category=Movies"
+url: "{{ _.local }}/articles?category=Movies"
 name: Get Articles
 description: ""
 method: GET

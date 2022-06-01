@@ -1,9 +1,9 @@
 _id: req_885f8bdb3011416294c30e58d950d60e
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654098227078
+modified: 1654113260962
 created: 1654098177632
-url: "{{ _.base }}/users"
+url: "{{ _.local }}/users"
 name: Get all Users
 description: ""
 method: GET
