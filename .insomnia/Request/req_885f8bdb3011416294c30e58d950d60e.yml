@@ -1,7 +1,7 @@
 _id: req_885f8bdb3011416294c30e58d950d60e
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654113260962
+modified: 1654123829833
 created: 1654098177632
 url: "{{ _.local }}/users"
 name: Get all Users
@@ -14,6 +14,7 @@ headers:
     name: x-csrf-token
     value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiOGFiNDMzMzk4Y2Y0OTYyYmFkZDg3ODgzNmM5MmI3MiIsImlhdCI6MTY1NDA5ODIwOCwibmJmIjoxNjU0MDk4MjA4LCJleHAiOjE2NTQzMTQyMDh9.uNnMuOkSc7MRHkMevVR6hAtn2Z586TQZGygEPDAkW44
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1654098177632
 isPrivate: false

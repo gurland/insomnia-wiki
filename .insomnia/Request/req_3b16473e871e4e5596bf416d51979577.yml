@@ -1,7 +1,7 @@
 _id: req_3b16473e871e4e5596bf416d51979577
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654120609643
+modified: 1654123523844
 created: 1654120558611
 url: "{{ _.local }}/articles/1/drafts"
 name: Get Drafts
