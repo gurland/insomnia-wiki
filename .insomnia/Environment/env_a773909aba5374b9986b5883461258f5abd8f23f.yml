@@ -1,0 +1,14 @@
+_id: env_a773909aba5374b9986b5883461258f5abd8f23f
+type: Environment
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654109474186
+created: 1654097286610
+name: Base Environment
+data:
+  base: https://8196-188-163-116-136.eu.ngrok.io
+dataPropertyOrder:
+  "&":
+    - base
+color: null
+isPrivate: false
+metaSortKey: 1654097286610

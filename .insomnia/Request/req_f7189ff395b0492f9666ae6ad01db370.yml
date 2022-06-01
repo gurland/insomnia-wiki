@@ -1,0 +1,37 @@
+_id: req_f7189ff395b0492f9666ae6ad01db370
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654108333194
+created: 1654107543918
+url: "{{ _.base }}/articles/"
+name: Create Article
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Testqweqw title",
+    	"category": "books",
+    	"image": "test.jpg"
+    }
+parameters: []
+headers:
+  - id: pair_9f7f7aa94f0641bc80a3f92dd9ca3207
+    name: x-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMjAyMTI0YWYyYmY0ZjFkOTVmYmVkOTc5YTI1YzViZSIsImlhdCI6MTY1NDEwMDA4MywibmJmIjoxNjU0MTAwMDgzLCJleHAiOjE2NTQzMTYwODN9.wk6UtsC2mt7oOOTEI_tnm5roZU88TFXsWMtvhF9BDPI
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_70a1315b04b845bd805eb46c605aa612
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjA3NjMxYjQyM2Q0OTVkYjZiZTliMmE1MmY0ZTVhZSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTA1ODYzLCJuYmYiOjE2NTQxMDU4NjMsImV4cCI6MTY1NDMyMTg2M30.lTRdmco91DigUW0s0RW6Y9NdW7QAJ2H1LeGy6zVDcds
+metaSortKey: -1654104115530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
