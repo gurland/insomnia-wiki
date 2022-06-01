@@ -1,0 +1,35 @@
+_id: req_bc1d13a7241048208ed6efcc701ad4bc
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654121658493
+created: 1654121619380
+url: "{{ _.local }}/articles/1/drafts/1"
+name: Approve Draft
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isApproved": true
+    }
+parameters: []
+headers:
+  - id: pair_031a841486d34eab91f29f847fd66207
+    name: X-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_d7f75aed10b445629b8851437a2cc89b
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+metaSortKey: -1654120558661
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
