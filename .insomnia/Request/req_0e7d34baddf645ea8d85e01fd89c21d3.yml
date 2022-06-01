@@ -1,0 +1,36 @@
+_id: req_0e7d34baddf645ea8d85e01fd89c21d3
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654120588132
+created: 1654117565831
+url: "{{ _.local }}/articles/1/drafts"
+name: Create Draft
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"first": "1.------------------------h2>Physical appearance</h2><p>Scooby is brown from head to toe with several distinctive black spots on his upper body. He is generally a quadruped, but displays bipedal 'human' characteristics occasionally. Scooby also has opposible thumbs and can use his front paws like hands. He has a black nose and wears an off-yellow, diamond shaped-tagged blue-green collar with an (his initials) and has four toes on each foot and unlike other dogs, Scooby only has one pad on the sole of each of his feet. As a pup, he wore a scarf and ear muffs in cold climates.</p><h2>Personality</h2><p>Scooby-Doo and Shaggy share several personality traits, mostly being constantly hungry, being scared easily and most of the time refuse to help others, but their friends (Velma Dinkley, Daphne Blake and Fred Jones) encourage them to go after the costumed villains usually with, a biscuit-like dog treat or cookie snack (usually shaped like a bone or as shown in later versions of the cartoons Scooby's dog tag), though occasionally appealing to Scooby-Doo inherent loyalty and courage to take a more heroic stance. His catch phrase, usually howled at the end of every mystery, is  or , sometimes followed by a quirky chuckle. He enjoys a lot of attention and would sometimes appear brave and heroic. When he solves cases with his nephew Scrappy-Doo, he's very protective of him, as he often runs after him to prevent him from going straight to the monster or ghost.</p><h2>Power and abilities</h2><p>He has peculiar and extraordinary abilities, such as being able to talk in English, although not without pronouncing most words as if they begin with an though most people are able to understand him perfectly (if they acknowledge that he can speak at all). He can also talk to other animals (mostly dogs), which comes in handy whenever the gang needs help or more information. He can stand on his hind legs, which he gradually does more often as the years have gone by. Dealing with Scrappy, would get him on his hind legs a lot, when he wanted to keep himself and Scrappy away from a monster. He can also morph his body to mimic any and all monsters he has encountered, along with some humans, too. His tail is prehensile, being used to get him out of certain situations, if need be. He also has a great sense of balance, as he can ride on a unicycle while juggling and balancing a fishbowl on his head. He's shown to be a master dancer, as he got a perfect score on the WWE's victory dance, and avoided Kane's attacks. When he was a puppy, Scooby Snacks would make him blast off like a rocket, before gliding gently back down to earth. Like many dogs he has an incredible sense of smell, earning his nose the nickname . He has a fully prehensile tail he can use to swing from or press buttons. Both his head and tail are malleable and useful as a communication aid or creating a distraction. But his tail often gives him away while in disguise. He had amazing video game skill when he was a pup and referred to by Shaggy as the Video Champ of Coolsville.</p>",
+    	"second": "SSSS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_00b7cade40cc43279c2936effb6e8ba2
+  - id: pair_c5599b3a14cd43de92696fafc9d9a6f8
+    name: X-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+metaSortKey: -1654117565831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
