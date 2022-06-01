@@ -1,0 +1,27 @@
+_id: req_d112258769fc4ceb96361b0b17a3f75f
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654125941583
+created: 1654125934464
+url: "{{ _.local }}/articles/1"
+name: Get one Article
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9f7f7aa94f0641bc80a3f92dd9ca3207
+    name: x-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMjAyMTI0YWYyYmY0ZjFkOTVmYmVkOTc5YTI1YzViZSIsImlhdCI6MTY1NDEwMDA4MywibmJmIjoxNjU0MTAwMDgzLCJleHAiOjE2NTQzMTYwODN9.wk6UtsC2mt7oOOTEI_tnm5roZU88TFXsWMtvhF9BDPI
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjA3NjMxYjQyM2Q0OTVkYjZiZTliMmE1MmY0ZTVhZSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTA1ODYzLCJuYmYiOjE2NTQxMDU4NjMsImV4cCI6MTY1NDMyMTg2M30.lTRdmco91DigUW0s0RW6Y9NdW7QAJ2H1LeGy6zVDcds
+metaSortKey: -1654104115505
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

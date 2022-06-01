@@ -1,0 +1,27 @@
+_id: req_9db6b18780af4889a0e81a50ac611f06
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1654123745530
+created: 1654123533866
+url: "{{ _.local }}/img/1.png"
+name: Static
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_031a841486d34eab91f29f847fd66207
+    name: X-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiZTAxZmUwMjhjNGM0NzAyYjM0YjFmOTI2NDZlMjBkNSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTIzNjM2LCJuYmYiOjE2NTQxMjM2MzYsImV4cCI6MTY1NDMzOTYzNn0.HSvLxZbVIhFK3VqQFZpoJwuEg6_xjpRAqYTBWEI-Akk
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiZTAxZmUwMjhjNGM0NzAyYjM0YjFmOTI2NDZlMjBkNSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTIzNjM2LCJuYmYiOjE2NTQxMjM2MzYsImV4cCI6MTY1NDMzOTYzNn0.HSvLxZbVIhFK3VqQFZpoJwuEg6_xjpRAqYTBWEI-Akk.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+metaSortKey: -1654120558711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
