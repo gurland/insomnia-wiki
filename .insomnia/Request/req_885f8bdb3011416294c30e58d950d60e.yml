@@ -1,7 +1,7 @@
 _id: req_885f8bdb3011416294c30e58d950d60e
 type: Request
 parentId: fld_0d67d542a4064e7e81423a3113b30214
-modified: 1654456533949
+modified: 1654456893141
 created: 1654098177632
 url: "{{ _.local }}/users"
 name: Get all Users
@@ -12,7 +12,8 @@ parameters: []
 headers:
   - id: pair_9a8fd93c679543d5a61698427dd3a134
     name: x-csrf-token
-    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiOGFiNDMzMzk4Y2Y0OTYyYmFkZDg3ODgzNmM5MmI3MiIsImlhdCI6MTY1NDA5ODIwOCwibmJmIjoxNjU0MDk4MjA4LCJleHAiOjE2NTQzMTQyMDh9.uNnMuOkSc7MRHkMevVR6hAtn2Z586TQZGygEPDAkW44
+    value: "{% response 'body', 'req_20dca81d7b78437cb22b950b3fad4c95',
+      'b64::JC50b2tlbg==::46b', 'never', 60 %}"
     description: ""
     disabled: false
 authentication: {}

@@ -1,7 +1,7 @@
 _id: req_aec0a1d6a4164190b421a1285a49d387
 type: Request
 parentId: fld_5ef6f1d4f0164cb1a2c6dd98c3dea685
-modified: 1654456546520
+modified: 1654456882664
 created: 1654104115480
 url: "{{ _.local }}/articles?category=Movies"
 name: Get Articles
@@ -12,11 +12,13 @@ parameters: []
 headers:
   - id: pair_9f7f7aa94f0641bc80a3f92dd9ca3207
     name: x-csrf-token
-    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMjAyMTI0YWYyYmY0ZjFkOTVmYmVkOTc5YTI1YzViZSIsImlhdCI6MTY1NDEwMDA4MywibmJmIjoxNjU0MTAwMDgzLCJleHAiOjE2NTQzMTYwODN9.wk6UtsC2mt7oOOTEI_tnm5roZU88TFXsWMtvhF9BDPI
+    value: "{% response 'body', 'req_20dca81d7b78437cb22b950b3fad4c95',
+      'b64::JC50b2tlbg==::46b', 'never', 60 %}"
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjA3NjMxYjQyM2Q0OTVkYjZiZTliMmE1MmY0ZTVhZSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTA1ODYzLCJuYmYiOjE2NTQxMDU4NjMsImV4cCI6MTY1NDMyMTg2M30.lTRdmco91DigUW0s0RW6Y9NdW7QAJ2H1LeGy6zVDcds
+  token: "{% response 'body', 'req_20dca81d7b78437cb22b950b3fad4c95',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 metaSortKey: -1654104115555
 isPrivate: false
 settingStoreCookies: true
