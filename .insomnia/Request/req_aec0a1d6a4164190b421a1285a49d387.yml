@@ -1,7 +1,7 @@
 _id: req_aec0a1d6a4164190b421a1285a49d387
 type: Request
-parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654114360169
+parentId: fld_5ef6f1d4f0164cb1a2c6dd98c3dea685
+modified: 1654456546520
 created: 1654104115480
 url: "{{ _.local }}/articles?category=Movies"
 name: Get Articles
@@ -17,7 +17,7 @@ headers:
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjA3NjMxYjQyM2Q0OTVkYjZiZTliMmE1MmY0ZTVhZSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTA1ODYzLCJuYmYiOjE2NTQxMDU4NjMsImV4cCI6MTY1NDMyMTg2M30.lTRdmco91DigUW0s0RW6Y9NdW7QAJ2H1LeGy6zVDcds
-metaSortKey: -1654104115480
+metaSortKey: -1654104115555
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

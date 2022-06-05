@@ -1,7 +1,7 @@
 _id: req_3b16473e871e4e5596bf416d51979577
 type: Request
-parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654123523844
+parentId: fld_fa5c18223a5f426fad57f19757093766
+modified: 1654456558303
 created: 1654120558611
 url: "{{ _.local }}/articles/1/drafts"
 name: Get Drafts
@@ -12,12 +12,12 @@ parameters: []
 headers:
   - id: pair_031a841486d34eab91f29f847fd66207
     name: X-csrf-token
-    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NjI2NThjZDRlYmM0ODM0ODdmMzFiMDlmNWIzNzM3ZiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0NDQ3NDMxLCJuYmYiOjE2NTQ0NDc0MzEsImV4cCI6MTY1NDY2MzQzMSwiaXNBZG1pbiI6dHJ1ZX0.ytB2aKfZns7o10Knxf7am8jmNlPlbyebMNkprOUHdoo
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
-metaSortKey: -1654120558611
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NjI2NThjZDRlYmM0ODM0ODdmMzFiMDlmNWIzNzM3ZiIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0NDQ3NDMxLCJuYmYiOjE2NTQ0NDc0MzEsImV4cCI6MTY1NDY2MzQzMSwiaXNBZG1pbiI6dHJ1ZX0.ytB2aKfZns7o10Knxf7am8jmNlPlbyebMNkprOUHdoo
+metaSortKey: -1654120558711
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_0e7d34baddf645ea8d85e01fd89c21d3
 type: Request
-parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654120588132
+parentId: fld_fa5c18223a5f426fad57f19757093766
+modified: 1654456559305
 created: 1654117565831
 url: "{{ _.local }}/articles/1/drafts"
 name: Create Draft
@@ -26,7 +26,7 @@ headers:
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0NTUxY2UwMjQ0ODY0Y2NlYWRhMTRjNWUyZTIyM2E1MSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTE4MjEwLCJuYmYiOjE2NTQxMTgyMTAsImV4cCI6MTY1NDMzNDIxMH0.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
-metaSortKey: -1654117565831
+metaSortKey: -1654120558761
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

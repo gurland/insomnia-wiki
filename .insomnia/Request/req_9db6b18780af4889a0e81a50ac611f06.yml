@@ -1,10 +1,10 @@
 _id: req_9db6b18780af4889a0e81a50ac611f06
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654123745530
+modified: 1654456586533
 created: 1654123533866
 url: "{{ _.local }}/img/1.png"
-name: Static
+name: Static files
 description: ""
 method: GET
 body: {}
@@ -17,7 +17,7 @@ headers:
 authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiJ9.eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiZTAxZmUwMjhjNGM0NzAyYjM0YjFmOTI2NDZlMjBkNSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0MTIzNjM2LCJuYmYiOjE2NTQxMjM2MzYsImV4cCI6MTY1NDMzOTYzNn0.HSvLxZbVIhFK3VqQFZpoJwuEg6_xjpRAqYTBWEI-Akk.FpCRenQqx9PYlQD_e-_p7JjpDOyyXnaBJtaetVv12Vg
-metaSortKey: -1654120558711
+metaSortKey: -1654456554220
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
