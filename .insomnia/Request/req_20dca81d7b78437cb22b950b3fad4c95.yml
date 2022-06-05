@@ -1,15 +1,23 @@
 _id: req_20dca81d7b78437cb22b950b3fad4c95
 type: Request
 parentId: wrk_0690968aa1874b3494a1f40effece0e6
-modified: 1654114874177
+modified: 1654432795142
 created: 1654097286630
 url: "{{ _.local }}/auth/login"
 name: Get JWT
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstname": "login"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_95d4ea7edb8a4997a31d19132498de1e
 authentication:
   type: basic
   useISO88591: false
