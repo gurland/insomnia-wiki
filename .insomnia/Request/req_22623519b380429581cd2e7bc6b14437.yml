@@ -1,0 +1,27 @@
+_id: req_22623519b380429581cd2e7bc6b14437
+type: Request
+parentId: fld_0d67d542a4064e7e81423a3113b30214
+modified: 1654456529178
+created: 1654456489285
+url: "{{ _.local }}/auth/refresh"
+name: Refresh JWT
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c5599b3a14cd43de92696fafc9d9a6f8
+    name: X-csrf-token
+    value: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1MzY2MjllNjE2NDM0OGNmYjExYWI3NTBkMjMwYTM5OSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0NDU2NTEzLCJuYmYiOjE2NTQ0NTY1MTMsImV4cCI6MTY1NDY3MjUxMywiaXNBZG1pbiI6dHJ1ZX0.x3XIbfOAZcI9Xu1QUt8E0-tatGpIaBTW_ywO0YYzkQA
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1MzY2MjllNjE2NDM0OGNmYjExYWI3NTBkMjMwYTM5OSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjU0NDU2NTEzLCJuYmYiOjE2NTQ0NTY1MTMsImV4cCI6MTY1NDY3MjUxMywiaXNBZG1pbiI6dHJ1ZX0.x3XIbfOAZcI9Xu1QUt8E0-tatGpIaBTW_ywO0YYzkQA
+metaSortKey: -1654097509380.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
