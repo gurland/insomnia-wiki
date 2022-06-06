@@ -1,9 +1,9 @@
 _id: req_3b16473e871e4e5596bf416d51979577
 type: Request
 parentId: fld_fa5c18223a5f426fad57f19757093766
-modified: 1654458442022
+modified: 1654546669342
 created: 1654120558611
-url: "{{ _.local }}/articles/1/drafts"
+url: "{{ _.local }}/articles/1/drafts?isApproved="
 name: Get Drafts
 description: ""
 method: GET
