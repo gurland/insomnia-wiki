@@ -1,7 +1,7 @@
 _id: req_20dca81d7b78437cb22b950b3fad4c95
 type: Request
 parentId: fld_0d67d542a4064e7e81423a3113b30214
-modified: 1654545040851
+modified: 1654587101910
 created: 1654097286630
 url: "{{ _.local }}/auth/login"
 name: Get JWT
@@ -22,8 +22,8 @@ authentication:
   type: basic
   useISO88591: false
   disabled: false
-  username: admin
-  password: admin
+  username: tes
+  password: tes
 metaSortKey: -1654097509430.5
 isPrivate: false
 settingStoreCookies: true

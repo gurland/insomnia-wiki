@@ -1,7 +1,7 @@
 _id: req_d112258769fc4ceb96361b0b17a3f75f
 type: Request
 parentId: fld_5ef6f1d4f0164cb1a2c6dd98c3dea685
-modified: 1654456953054
+modified: 1654587137288
 created: 1654125934464
 url: "{{ _.local }}/articles/1"
 name: Get one Article

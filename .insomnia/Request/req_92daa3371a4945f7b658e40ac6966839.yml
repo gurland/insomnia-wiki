@@ -1,0 +1,26 @@
+_id: req_92daa3371a4945f7b658e40ac6966839
+type: Request
+parentId: wrk_0690968aa1874b3494a1f40effece0e6
+modified: 1655202677627
+created: 1655201844291
+url: https://8ud3t3au3c.execute-api.us-east-1.amazonaws.com/images
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/gurland/Downloads/iXrVl.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: image/png
+    id: pair_d7b35c8ac75f4dae90237faed9d4626d
+authentication: {}
+metaSortKey: -1655201844291
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

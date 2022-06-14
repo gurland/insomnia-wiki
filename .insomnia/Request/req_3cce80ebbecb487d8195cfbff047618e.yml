@@ -1,33 +1,30 @@
-_id: req_53686568876a40099b94e7e7d38f0b8d
+_id: req_3cce80ebbecb487d8195cfbff047618e
 type: Request
 parentId: fld_0d67d542a4064e7e81423a3113b30214
-modified: 1654587096506
-created: 1654431218935
+modified: 1654587054032
+created: 1654587022504
 url: "{{ _.local }}/auth/login"
-name: Register User
+name: Get Admin JWT
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"login": "tes",
-    	"password": "tes",
-    	"firstname": "register",
-    	"lastname": "test"
+    	"firstname": "login"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_21b2a10301d8488abb00d42e379c96d6
+    id: pair_95d4ea7edb8a4997a31d19132498de1e
 authentication:
   type: basic
   useISO88591: false
   disabled: false
   username: admin
   password: admin
-metaSortKey: -1654097509530.5
+metaSortKey: -1654097509405.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

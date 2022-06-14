@@ -1,9 +1,9 @@
 _id: req_0e7d34baddf645ea8d85e01fd89c21d3
 type: Request
 parentId: fld_fa5c18223a5f426fad57f19757093766
-modified: 1654546656251
+modified: 1654588416796
 created: 1654117565831
-url: "{{ _.local }}/articles/1/drafts"
+url: "{{ _.local }}/articles/11/drafts"
 name: Create Draft
 description: ""
 method: POST

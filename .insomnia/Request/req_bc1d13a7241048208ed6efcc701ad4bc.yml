@@ -1,9 +1,9 @@
 _id: req_bc1d13a7241048208ed6efcc701ad4bc
 type: Request
 parentId: fld_fa5c18223a5f426fad57f19757093766
-modified: 1654545034156
+modified: 1655201833490
 created: 1654121619380
-url: "{{ _.local }}/articles/1/drafts/49"
+url: "{{ _.local }}/articles/11/drafts/55"
 name: Approve Draft
 description: ""
 method: POST
@@ -17,7 +17,7 @@ parameters: []
 headers:
   - id: pair_031a841486d34eab91f29f847fd66207
     name: X-csrf-token
-    value: "{% response 'body', 'req_20dca81d7b78437cb22b950b3fad4c95',
+    value: "{% response 'body', 'req_3cce80ebbecb487d8195cfbff047618e',
       'b64::JC50b2tlbg==::46b', 'never', 60 %}"
     description: ""
   - name: Content-Type
@@ -25,7 +25,7 @@ headers:
     id: pair_d7f75aed10b445629b8851437a2cc89b
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_20dca81d7b78437cb22b950b3fad4c95',
+  token: "{% response 'body', 'req_3cce80ebbecb487d8195cfbff047618e',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 metaSortKey: -1654120558661
 isPrivate: false
